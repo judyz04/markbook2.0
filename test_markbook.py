@@ -1,6 +1,6 @@
 import pytest
 
-import markbook
+import main
 
 
 def test_create_assigment():
