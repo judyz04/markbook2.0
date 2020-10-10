@@ -1,4 +1,4 @@
-#user/local/bin/python3
+user/local/bin/python3
 import os
 import json
 from typing import List
