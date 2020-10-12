@@ -1,5 +1,6 @@
 from student import *
 from teacher import *
+from Person import *
 from typing import List 
 
 class Classroom:
@@ -33,9 +34,6 @@ class Classroom:
         '''
         cls.class_list.remove(student)
     
-    def __repr__(self):
-        return f"Student(Name: {self.name}, Age:{self.age})"
-
     def get_course_name(self):
         '''get the name of the course
         Return -> str
