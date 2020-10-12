@@ -1,4 +1,3 @@
-from main import *
 from student import *
 from teacher import *
 from typing import List 
@@ -27,6 +26,7 @@ class Classroom:
         '''
         cls.class_list.append(student)
 
+    @classmethod
     def remove_student(cls, student: Student):
         '''remove the student from the classroom list.
         Return -> None
@@ -34,7 +34,7 @@ class Classroom:
         cls.class_list.remove(student)
     
     def __repr__(self):
-            return f"Student(Name: {self.name}, Age:{self.age})"
+        return f"Student(Name: {self.name}, Age:{self.age})"
 
     def get_course_name(self):
         '''get the name of the course
@@ -84,7 +84,6 @@ class Classroom:
         '''
         self._teacher = new_teacher
         return self._teacher
-
 
     
 

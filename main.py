@@ -12,8 +12,7 @@ def wrtie_fill():
 
 def main():
     #call markbook in this function
-    pass
-
+    
 if __name__ == "__main__":
     #os.system('pytest test_markbook')
     main()
